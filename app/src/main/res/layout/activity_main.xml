@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_relative"
+    style="@style/Widget.AppCompat.ButtonBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdfeaf1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="@dimen/textview_width"
+        android:layout_height="@dimen/textview_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/my_title"
+        android:textSize="@dimen/font_size" />
+
+
+    <LinearLayout
+        android:id="@+id/layout_linear_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/primaryColor"
+            android:text="@string/media_streamer"
+            android:textColor="@color/buttonTextColor" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/primaryColor"
+            android:text="@string/super_duo1"
+            android:textColor="@color/buttonTextColor" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/primaryColor"
+            android:text="@string/super_duo2"
+            android:textColor="@color/buttonTextColor" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/primaryColor"
+            android:text="@string/ant_terminator"
+            android:textColor="@color/buttonTextColor" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/primaryColor"
+            android:text="@string/materialize"
+            android:textColor="@color/buttonTextColor" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/accentColor"
+            android:text="@string/capstone"
+            android:textColor="@color/buttonTextColor" />
+    </LinearLayout>
+
+</RelativeLayout>
